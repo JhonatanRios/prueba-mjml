@@ -2,20 +2,47 @@
 
 
   &.title{
-    width: 100%;
+    width: 100% !important;
+    margin: 20px 0 10px 0;
   }
 
   &.landing{
+
+    .row.top-row.region-row {
+      margin-bottom: 20px;
+  }
+
+  .row.bottom-row.region-row{
+    border-top: 1px solid #e4e4e4;
+
+    h3{
+      text-align: center !important;
+    }
+  }
+
+
+
+    .col.one-quarter{
+
+      .menu a{
+        background: #fb9d42 !important;
+      &.active {
+        background-color: #d80029 !important;
+    }
+  }
+    }
+
+
 
     .panel-pane.pane-node-title{
       float: initial !important;
       width: 100% !important;
 
       h1{
-        text-align: center;
-        color: #d80029!important;
-        margin: 0;
-        width: 100% !important;
+    text-align: center;
+    color: #d80029!important;
+    width: 85%!important;
+    margin: 0 auto;
       }
     }
 
@@ -23,14 +50,158 @@
       width: 100%;
   }
 
-
-    .panel-pane.pane-header-image-pane {
-      margin-bottom: 15px;
   }
+
+  &.article{
+
+    .external-link{
+      background: #f68b23;
+      display: block;
+      margin: 0 auto;
+      width: fit-content;
+      padding: 10px 20px;
+      color: #FFF;
+      margin-top: 10px;
+
+      .ext{
+        display: none;
+      }
+    }
+
+    .mb-25{
+    margin-bottom: 25px;
+    }
+
+    .mt-35{
+      margin-top: 35px;
+    }
+
+    .pane-node-field-header-image {
+      margin-bottom: 20px;
+  }
+
+    .background--red{
+      background: #d80029;
+      background-image: url(https://www.mamasalrescate.com/sites/otc_mx/files/pattern-heart.png);
+      padding: 20px;
+      box-sizing: border-box;
+
+
+
+      &--title{
+        padding: 10px 40px;
+      }
+
+      &--hero{
+        padding: 5px 20px;
+      }
+
+      p{
+        color: #FFF !important;
+      }
+
+
+      h2{
+        font-size: 1.2em;
+        color: #fff;
+        line-height: 1.2em;
+        margin: 0;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 10px;
+
+        &__number {
+          width: 30px;
+          height: 30px;
+          background: #f68b23;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.2em;
+          margin-right: 10px;
+      }
+      p{
+        margin: 0 !important;
+      }
+    }
+
+
+    }
+
+    .background--decoration{
+      position: relative;
+      padding: 10px 0 10px 70px;
+  
+      h2{
+        font-size: 1.1em;
+      }
+  
+      img{
+        width: 50px;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+
+      & > *{
+        color: #FFF;
+      }
+
+      p{
+        color: #626363;
+        font-size: .9em;
+        line-height: 1.6em;
+      }
+      ul{
+        margin: 30px 0;
+        padding: 0;
+        list-style: none;
+        
+
+       li{
+        position: relative;
+        color: #626363;
+        margin-bottom: 10px;
+        font-size: .9em;
+        padding-left: 20px;
+        list-style: none;
+
+        &:before{
+          content: "";
+          position: absolute;
+          width: 9px;
+          height: 9px;
+          left: 0;
+          top: 5px;
+          background-image: url(https://www.mamasalrescate.com/sites/otc_mx/files/heart.png);
+          background-size: cover;
+      }
+    }
+
+
+    }
+
+
+
 
   }
 
   &.landing__box{
+
+
+    background-image: url(https://www.mamasalrescate.com/sites/otc_mx/files/pattern-heart.png);
+    background-size: 455px;
+    background-repeat: repeat;
+    background-position: -38px 20px;
+
 
     .image-col .field__item.even{
       height: 250px;
@@ -50,24 +221,30 @@
       display: none;
     }
 
-    background-image: url(sites/otc_mx/files/pattern-heart.png);
-    background-size: auto;
-    background-repeat: repeat;
-
     &--red{
 
-        background: #d80029;
+        background-color: #d80029;
 
     }
 
     &--orange{
-        background: #fb9d42;
+        background-color: #fb9d42;
     }
+
+
 
     .taco-inner .node .content .content-col{
       padding: 10px 15px 55px!important;
       margin-bottom: 0;
     }
+
+    &.landing__box{
+      
+      .taco-inner .node .content .content-col{
+        padding-bottom: 20px !important;
+      }
+    }
+
 
     .pane-taco-pane, .node--taco {
       background: transparent;
