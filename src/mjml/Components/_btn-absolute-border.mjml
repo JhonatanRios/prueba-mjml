@@ -1,0 +1,9 @@
+<mj-section padding="0">
+    <mj-column padding="0">
+        <mj-button href="#" css-class="absolute" padding="0" font-size="15px" border="2px solid #f45e43" border-radius="0 8px 0 0" background-color="#fff" color="#f45e43">
+            SHOP ALL
+        </mj-button>  
+        <mj-spacer height="20px" container-background-color="#fff"/>
+        <mj-spacer height="40px"/>
+    </mj-column>
+</mj-section>

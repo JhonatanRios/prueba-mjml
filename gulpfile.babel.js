@@ -8,6 +8,7 @@ import browserSync from 'browser-sync';
 import concat from 'gulp-concat';
 import htmlmin from 'gulp-htmlmin';
 import strip from 'gulp-strip-comments';
+import mjml from 'gulp-mjml';
 
 const server = browserSync.create(),
     postCSSPlugins = [
@@ -36,6 +37,11 @@ gulp.task('js', () =>
     .pipe(gulp.dest('./public/js'))
 );
 
+gulp.task('mjml', () => 
+    gulp.src('./src/mjml/*.mjml')
+    .pipe(mjml())
+    .pipe(gulp.dest('./public/mjml'))
+);
 
 gulp.task('default', () => {
     server.init({
@@ -44,13 +50,13 @@ gulp.task('default', () => {
         }
     });
     gulp.watch('./src/scss/**/*.scss', ['sass']);
+    gulp.watch('./src/mjml/*.mjml', ['mjml', server.reload]);
+    gulp.watch('./src/mjml/**/*.mjml', ['mjml', server.reload]);
     gulp.watch('./src/js/*.js', ['js', server.reload]);
     gulp.watch("./public/*.html").on("change", server.reload);
     gulp.watch("./public/pages/**/*.html").on("change", server.reload);
     gulp.watch("./public/structure/**/*.html").on("change", server.reload);
-
 });
-
 
 gulp.task('html', function() {
     return gulp.src('./public/index.html')

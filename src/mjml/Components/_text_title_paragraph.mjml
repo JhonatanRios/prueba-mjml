@@ -1,0 +1,11 @@
+<mj-section padding="30px 15px">
+    <mj-column width="500px">
+        <mj-text padding="0" font-weight="200" font-size="16px" align="center" color="#ff7163">
+            <h2 style="margin: 0;">it´s our biggest sale ... ever.</h2>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text padding="0" align="center" font-size="16px" letter-spacing=".5px" line-height="25px" align="center" color="#828282">
+            <p style="margin: 0;">Sunt reprehenderit fugiat mollit anim est. Labore duis tempor veniam dolore esse cillum cupidatat. Voluptate esse ullamco cillum id magna cillum nisi sunt id consectetur nulla tempor cupidatat. Ullamco incididunt deserunt dolore.</p>
+        </mj-text>
+    </mj-column>
+</mj-section>

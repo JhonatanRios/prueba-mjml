@@ -17,6 +17,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^4.0.0",
+    "gulp-mjml": "^4.0.2",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.1",

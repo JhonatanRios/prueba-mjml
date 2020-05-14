@@ -1,0 +1,10 @@
+<mj-section background-color="#ef6451">
+    <mj-column>
+        <mj-navbar base-url="http://localhost:3000" hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link href="/" color="#ffffff" target="_self">Home</mj-navbar-link>
+            <mj-navbar-link href="/mjml/test01.html" color="#ffffff" target="_self">Ver Prueba</mj-navbar-link>
+            <mj-navbar-link href="/original.html" color="#ffffff" target="_self">Ver Mail Html</mj-navbar-link>
+            <mj-navbar-link href="/mjml/mail-convert.html" color="#ffffff" target="_self">Ver Mail Mjml</mj-navbar-link>
+        </mj-navbar>
+    </mj-column>
+</mj-section>

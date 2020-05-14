@@ -1,0 +1,14 @@
+<mj-section padding="0 15px" background-color="#fff">
+    <mj-column>
+        <mj-spacer height="20px" />
+        <mj-text padding="0" align="right">
+            View this email in your browser
+            <a href="#" style="color:#f2665c;text-decoration:none;" target="_blank">
+                <span style="color:#f2665c; text-decoration:none">click here.</span>
+            </a>
+        </mj-text>
+        <mj-spacer height="50px" />
+        <mj-image  height="40px" src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/5b0f7f48-13c4-4060-bb77-d3dd20c7d0a9.jpg" alt="Logo Empresa" padding="0" align="left" width="300px"/>
+        <mj-spacer height="20px" />
+    </mj-column>
+</mj-section>

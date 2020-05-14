@@ -1,0 +1,118 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello Mi primer MJML</mj-title>
+    <mj-attributes>
+      <mj-accordion border="none" padding="1px" />
+      <mj-accordion-element icon-wrapped-url="https://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="https://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
+      <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
+      <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#ef6451">
+      <mj-column>
+        <mj-navbar base-url="http://localhost:3000" hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link href="/" color="#ffffff" target="_self">Home</mj-navbar-link>
+            <mj-navbar-link href="/mjml/test01.html" color="#ffffff" target="_self">Ver Prueba</mj-navbar-link>
+            <mj-navbar-link href="/original.html" color="#ffffff" target="_self">Ver Mail Html</mj-navbar-link>
+            <mj-navbar-link href="/mjml/mail-convert.html" color="#ffffff" target="_self">Ver Mail Mjml</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <!-- Company Header -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text  font-style="italic"
+                  font-size="20px"
+                  color="#626262">
+          My Company
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Image Header -->
+    <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+              background-size="cover"
+              background-repeat="no-repeat">
+              <mj-column width="600px">
+                  <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">
+                      Slogan here
+                  </mj-text>
+                  <mj-button background-color="#F53A4D" href="#">
+                      Promotion
+                  </mj-button>
+              </mj-column></mj-section>
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+        <mj-column width="400px">
+            <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
+                My First MJML
+            </mj-text>
+            <mj-text color="#525252">
+                Et incididunt velit ea amet deserunt amet veniam. Dolor pariatur nostrud Lorem qui quis. Velit dolor voluptate incididunt tempor sit do eiusmod pariatur deserunt reprehenderit aliqua. Eu laborum et do laboris cupidatat culpa eu tempor labore voluptate qui magna eu amet. Eu non mollit exercitation pariatur anim sit officia veniam deserunt laborum.
+            </mj-text>
+            <mj-button background-color="#F45E43" href="#">
+              Lear More
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <!-- 2 columns section -->
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+      </mj-column>
+      <mj-column>
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
+          Find amazing places
+        </mj-text>
+        <mj-text color="#525252">
+          Et exercitation labore labore reprehenderit dolor. Ullamco nulla irure tempor dolor labore in ut nostrud labore dolore tempor. Commodo elit pariatur mollit velit consequat. Dolore ipsum amet magna sint. Quis veniam nisi consectetur adipisicing pariatur officia exercitation et consequat. Consectetur voluptate cillum in Lorem nulla ex.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Icons -->
+    <mj-section background-color="#fbfbfb"></mj-section>
+    <!-- Acordion -->
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column background-color="#dededd">
+        <mj-accordion>
+          <mj-accordion-element>
+            <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+            <mj-accordion-text>
+              <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+                <p style="line-height:20px">
+                  Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+                </p>
+                <img width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+              </div>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>How it works</mj-accordion-title>
+            <mj-accordion-text>
+              <mj-column>
+                <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+              </mj-column>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>How it works</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+        </mj-accordion>
+      </mj-column>
+    </mj-section>
+    <!-- Social icons -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-social>
+          <mj-social-element name="facebook" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

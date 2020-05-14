@@ -1,0 +1,154 @@
+<mjml>
+    <mj-head>
+        <mj-title>Mail convert</mj-title>
+        <mj-attributes>
+            
+        </mj-attributes>
+        <mj-style>
+            td.absolute {
+                position: absolute;
+                width: 600px;
+            }
+            div.flex-around td {
+                display: flex;
+                justify-content: space-around;
+            }
+            @media all and (max-width: 600px){
+                td.absolute {
+                    width: 100%;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#eeeeee">
+        <!--Nav-->
+        <mj-include path="./Components/_nav.mjml" />
+        <!--Header-->
+        <mj-include path="./Components/_header.mjml" />
+        <!--Gif-->
+        <mj-section padding="0" background-color="#e8e6e6">
+            <mj-column>
+                <mj-image padding="0" src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/747bc005-00e3-43d0-bbfd-09ad695a027e.gif" />
+            </mj-column>
+        </mj-section>
+        <!--Usar Wrapper-->
+        <mj-wrapper padding="0" background-color="#fff">
+            <!--Texto (Titulo y parrafo)-->
+            <mj-include path="./Components/_text_title_paragraph.mjml" />
+            <!--Imagenes-->
+            <mj-section padding="0 15px 0">
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/915f1fb4-b658-461d-ae64-e4d1a6376699.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/649c11e9-a03f-477c-8def-36a782cbfd38.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/d39532a7-d680-4f49-87e6-4986588f9253.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0px 15px 10px">
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/07a844c9-2cb7-4f29-aca0-1343a60cc6c1.jpg" alt="" width="150px" padding="0" href="#" target="_self" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/5691d62f-ad14-484d-8c3e-10a031262f5b.jpg" alt="" width="150px" padding="0" href="#" target="_self" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 20px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/9f1dd413-c6f9-4335-98c4-8c26280ede87.jpg" alt="" width="150px" padding="0" href="#" target="_self" fluid-on-mobile="true"/>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--Boton Absoluto-->
+        <mj-include path="./Components/_btn-absolute-border.mjml" />
+        <!--Our Article-->
+        <mj-wrapper padding="0 15px" background-color="#f2f2f2">     
+            <mj-section padding="0">
+                <mj-column padding="0">
+                    <mj-spacer height="30px" />
+                    <mj-text padding="0" font-weight="200" font-size="30px" letter-spacing="5px" align="center" color="#898989">
+                        <p style="margin: 0;"># Our Article</p>
+                    </mj-text>
+                    <mj-spacer height="30px" />
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+                <mj-column padding="0 0 10px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/1ca4f259-930c-4b72-ae12-a67dfc2c68d6.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 10px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/4847e88c-254b-4c01-b051-5a3f7c7d1c0d.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+                <mj-column padding="0 0 10px">
+                    <mj-image src="https://gallery.mailchimp.com/794098b69708a891b0263b5a9/images/6422473a-3859-4db3-ad1a-c8a09f79b746.jpg" alt="" width="150px" href="#" target="_self" padding="0" fluid-on-mobile="true"/>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+                <mj-column width="400px">
+                <mj-spacer height="15px" />
+                    <mj-text padding="0 20px" font-size="16px" letter-spacing=".5px" line-height="25px" align="center" color="#828282" align="center">
+                        Magna tempor id elit do sunt officia.
+                        Do duis proident elit exercitation sint ipsum nisi quis sint veniam proident magna.
+                    </mj-text>
+                    <mj-spacer height="30px" />
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+                <mj-column>
+                <mj-spacer height="30px" />
+                    <mj-text padding="0 20px" font-size="16px" letter-spacing=".5px" line-height="25px" align="center" color="#828282" align="center">
+                        STAY CONNECTED
+                    </mj-text>
+                    <mj-social icon-size="30px" mode="horizontal">
+                        <mj-social-element name="facebook" href="#">
+                        </mj-social-element>
+                        <mj-social-element name="google" href="#">
+                        </mj-social-element>
+                        <mj-social-element name="twitter" href="#">
+                        </mj-social-element>
+                    </mj-social>
+                    <mj-spacer height="30px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-wrapper padding="0 15px" background-color="#f2f2f2">
+            <mj-section>
+                <mj-column>
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282" align="center">
+                        We are sending you this email as you have previously purchased from us, or you have signed up on our website to be the first to know when we launch new products or announce new sales.
+                    </mj-text>
+                    <mj-spacer height="15px" />
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282"  align="center">
+                        If you would no longer like to receive these emails
+                        <a href="#" style="color:#f2665c;text-decoration:underline;" target="_self">
+                            <span style="color:#f2665c; text-decoration:underline">click here.</span>
+                        </a>
+                    </mj-text>
+                    <mj-spacer height="15px" />
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282"  align="center">
+                        Privacy policy:
+                        <a href="#" style="color:#f2665c;text-decoration:underline;" target="_self">
+                            <span style="color:#f2665c; text-decoration:underline">View our privacy policy</span>
+                        </a>
+                    </mj-text>
+                    <mj-spacer height="15px" />
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282" align="center">
+                        <a href="#" style="color:#828282;text-decoration:none;" target="_self">
+                        Article, 1010 Raymur Ave, Vancouver, BC, Canada V6A 3T2
+                        </a>
+                    </mj-text>
+                    <mj-spacer height="15px" />
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282" align="center">
+                        <a href="#" style="color:#828282;text-decoration:none;" target="_self">
+                        www.article.com
+                        </a>
+                    </mj-text>
+                    <mj-spacer height="15px" />
+                    <mj-text padding="0" font-size="12px" letter-spacing=".5px" line-height="15px" align="center" color="#828282" align="center">
+                        © 2016 Article. All Rights Reserved.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
